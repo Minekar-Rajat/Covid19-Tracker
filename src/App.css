@@ -1,0 +1,102 @@
+.logo{
+  border: black solid 2px;
+  border-radius: 10%;
+}
+
+body{
+  overflow-x: hidden;
+  scroll-behavior: smooth;  
+  
+}
+
+
+
+
+.nav-clr{
+  background-color: rgba(0, 0, 0);
+}
+.nav-fix{
+  position: static;
+  width: 100%;
+}
+
+.link-txt{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Arvo', serif;
+    font-size: larger;
+}
+
+#icon{
+  font-size: 70px;
+}
+
+tr:hover{
+  background-color: rgb(187, 187, 255);
+}
+
+.card{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.card:hover{
+  margin-top: 30px;
+  margin-left: 45px;
+  margin-right: 45px;
+  transition: all 0.5s;
+}
+
+#icon:hover{
+  font-size: 90px;
+  transition: all 0.125s;
+}
+
+.home{
+  padding-top: 0vh;
+  background-color: #f8f9fa;
+  
+}
+
+@keyframes pop-up {
+  from {
+    display: none;
+    margin: auto;
+  }
+  to {
+    display: block;
+
+  }
+}
+
+.footer{
+  background-color: #f8f9fa;
+}
+
+a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.help{
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  font-weight: bolder;
+  
+
+}
+
+.ft-style
+{
+  
+  font-family: 'Arvo', serif;
+}
+
+#stat:hover , #symp:hover , #prev:hover , #help:hover{
+  color: white;
+  font-weight: bolder;
+}
+
+
+
+.white{
+  color: white;
+}
