@@ -10,7 +10,16 @@ body{
 }
 
 
+.messenger{
+  height: 70px;
+  width: 70px;
+}
 
+.messenger:hover{
+  height: 90px;
+  width: 90px;
+  transition: all 0.125s;
+}
 
 .nav-clr{
   background-color: rgba(0, 0, 0);
